@@ -22,7 +22,6 @@ class myDocument extends Document {
         {/* <!-- Google tag (gtag.js) --> */}
 
         <body className="text-zinc-900 bg-white dark:bg-slate-900 dark:text-white transition-colors duration-300 antialiased scroll-smooth">
-          <div id="modal-root"></div>
           <Main />
           <NextScript />
         </body>

@@ -1,5 +1,4 @@
-import Socials from "./navbar/socials";
-import Link from "next/link";
+import Socials from "./socials";
 
 export default function Footer() {
   return (
@@ -22,44 +21,6 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* <div className="divide-slate-200 text-md lg:grow-0 dark:divide-slate-700 font-serif font-thin order-1 lg:order-3 justify-between transition-transform duration-300">
-          <div className="flex flex-row lg:flex-col">
-            <div className="mr-1 lg:mb-1">
-              <a
-                href="https://filipe-web-dev.vercel.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:underline hover:text-white text-sm lg:text-lg xl:text-xl"
-              >
-                Portfolio
-              </a>
-            </div>
-            <div className="mr-1 lg:mb-1">
-              <a
-                href="#"
-                className="hover:underline text-sm lg:text-lg xl:text-xl hover:text-white "
-              >
-                Privacy Policy
-              </a>
-            </div>
-            <div className="mr-1 lg:mb-1">
-              <a
-                href="#"
-                className="hover:underline text-sm lg:text-lg xl:text-xl hover:text-white "
-              >
-                Licensing
-              </a>
-            </div>
-            <div className="">
-              <Link href="/contact-form">
-                <a className="hover:underline text-sm lg:text-lg xl:text-xl hover:text-white">
-                  {" "}
-                  Contact
-                </a>
-              </Link>
-            </div>
-          </div>
-        </div> */}
         <div className="items-center order-2  transition-transform duration-300 ">
           <Socials />
         </div>
