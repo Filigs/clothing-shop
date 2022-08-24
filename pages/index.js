@@ -1,7 +1,7 @@
 import Head from "next/head";
 import LandingPage from "../components/landing";
 
-const titleName = "Pretend Clothing Shop";
+const titleName = "Sand Arena";
 
 export default function Home() {
   return (
